@@ -31,13 +31,13 @@ PONG
 
 ### Setting up the backend, broker and worker
 
-- After cloning the repository, create a Python virtualenv in your local using the command:
+- After cloning the repository, create a Python virtualenv in the project root using the command:
 
   ```bash
   python -m venv celery_test_venv
   ```
 
-- Create a .env file and paste the following in it:
+- Create a .env file in the project root and paste the following in it:
 
   ```python
   CELERY_RESULT_BROKER="redis://localhost:6379/0"
@@ -86,7 +86,7 @@ PONG
   sudo npm i -g pnpm
   ```
 
-  This will install `pnpm` in your device globally.
+  This will install `pnpm` in your device globally. Note that you need at least `node v18.12` to run pnpm commands.
 
 - Now run:
 
@@ -99,24 +99,24 @@ PONG
 - To run the linter, use this command:
 
   ```bash
-  npm run lint
+  pnpm run lint
   ```
 
 - To run the frontend on your local, run:
 
   ```bash
-  npm run dev
+  pnpm run dev
   ```
 
 - To create a stable build, run:
 
   ```bash
-  npm run build
+  pnpm run build
   ```
 
 - To preview your build, run:
   ```bash
-  npm run preview
+  pnpm run preview
   ```
 
 ### Happy Coding!

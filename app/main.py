@@ -20,7 +20,7 @@ app.add_middleware(
 
 @app.post("/generate", status_code=201)
 def run_task(payload=Body(...)):
-    task = process.delay(2, 3)
+    task = process.delay()
     return JSONResponse({"task_id": task.id})
 
 

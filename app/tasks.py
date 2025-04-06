@@ -16,7 +16,7 @@ MESSAGES = [
 
 
 @app.task(bind=True, name="process")
-def process(self, x: int, y: int):
+def process(self):
     total_steps = 5
 
     for step in range(total_steps):
