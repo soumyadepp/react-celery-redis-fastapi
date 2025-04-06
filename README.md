@@ -50,7 +50,7 @@ PONG
   pip install -r requirements.txt
   ```
 
-- Now, run the redis server using:
+- If redis server isn't running already, run the following command:
 
   ```bash
   redis-server
