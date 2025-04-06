@@ -1,0 +1,6 @@
+*_venv
+*_env
+__pycache__
+*.rdb
+*.env
+node_modules

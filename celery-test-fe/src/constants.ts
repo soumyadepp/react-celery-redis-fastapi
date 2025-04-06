@@ -1,0 +1,6 @@
+export enum States {
+  PENDING = "PENDING",
+  PROGRESS = "PROGRESS",
+  SUCCESS = "SUCCESS",
+  FAILURE = "FAILURE",
+}
